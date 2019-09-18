@@ -16,8 +16,6 @@ namespace PracticeConsole
 
   public class A
     {      
-        #region
-        #endregion
 
         #region Fields
         public static string public_Static_Str_A = "public_Static_Str_A";
@@ -412,16 +410,18 @@ namespace PracticeConsole
 
         #endregion
 
-        static void Main2(string[] args)
+        static void Main1111(string[] args)
         {
-          //  A aa = new A();
-          //  B bb = new B();
-           // C cc = new C();
-
-
-            //bb = (B)aa;  // Casting // alternate way [ aa as B ]
+            A aa = new A();
+            B bb = new B();
+            C cc = new C();
 
             
+
+
+            bb = (B)aa;  // Casting // alternate way [ aa as B ]
+
+
 
 
             Console.WriteLine(" program finished");
@@ -577,7 +577,7 @@ namespace PracticeConsole
 
         #endregion
 
-        static void Main(string[] args)
+        static void Main1111(string[] args)
         {
 
           //  dd = new D(7);

@@ -145,7 +145,6 @@
     <Compile Include="Logic Building\StringReverse.cs" />
     <Compile Include="General Concepts\UpDownCasting.cs" />
     <Compile Include="Logic Building\TablePrinting.cs" />
-    <Compile Include="Content\TestClassForInternal.cs" />
     <Compile Include="Logic Building\UntilZero.cs" />
   </ItemGroup>
   <ItemGroup>
