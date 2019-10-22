@@ -38,9 +38,18 @@ namespace PracticeConsole.Flow_Control
 
         public static void Main()
         {
-            Console.WriteLine("Hello World");
-            Console.WriteLine(fact(5));
-            Console.WriteLine(fact2(5));
+           
+            //Console.WriteLine("Hello World");
+            //Console.WriteLine(fact(5));
+            //Console.WriteLine(fact2(5));
+            // find missing number in 5 letter array
+            int[] array = new int[5];
+            int[] array2 = { 1, 3, 5, 4 };
+            int s = array2.Sum();
+            int sum = 1 + 2 + 3 + 4 + 5;
+            int r = sum - s;
+            Console.WriteLine(r);
+            Console.ReadLine();
             //fact(5);
         }
 
