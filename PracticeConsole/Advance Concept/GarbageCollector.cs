@@ -36,7 +36,7 @@ namespace PracticeConsole.Flow_Control
             }
         }
 
-        public static void Main()
+        public static void Main23424()
         {
            
             //Console.WriteLine("Hello World");

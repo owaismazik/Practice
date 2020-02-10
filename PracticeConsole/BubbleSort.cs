@@ -8,13 +8,13 @@ namespace PracticeConsole
 {
     class BubbleSort
     {
-        static void MainMethod(string[] args)
-        { 
-            int[] array = { 3, 2, 5, 4, 1 }; 
-            int temp; 
-            for (int i = 0; i <= array.Length-2 ; i++)
+        static void Main334(string[] args)
+        {
+            int[] array = { 3, 2, 5, 4, 1 };
+            int temp;
+            for (int i = 0; i <= array.Length - 2; i++)
             {
-                for (int j = 0; j <= array.Length -2; j++)
+                for (int j = 0; j <= array.Length - 2; j++)
                 {
                     if (array[j] > array[j + 1])
                     {
@@ -22,12 +22,12 @@ namespace PracticeConsole
                         array[j + 1] = array[j];
                         array[j] = temp;
                     }
-} 
+                }
             }
-            
+
             Console.WriteLine("The Sorted array");
-            foreach (int aa in array)                     
-                Console.Write(aa + " "); 
+            foreach (int aa in array)
+                Console.Write(aa + " ");
             Console.Read();
         }
     }

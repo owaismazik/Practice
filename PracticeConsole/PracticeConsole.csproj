@@ -128,6 +128,7 @@
     <Compile Include="Logic Building\RepeatUntilZero2.cs" />
     <Compile Include="Logic Building\StarPattern.cs" />
     <Compile Include="OOP Concepts\OOP_SoloLearn.cs" />
+    <Compile Include="OpenCloseBrackets.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Keywords\RefKeyword.cs" />

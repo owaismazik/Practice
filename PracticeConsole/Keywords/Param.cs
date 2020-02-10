@@ -26,23 +26,23 @@ namespace PracticeConsole
 
         // addtwoEach(); // throws an error
 
-  //======================================================================================      
-            
-            // with param
+        //======================================================================================      
 
-       //static public int addTwoEach(params int[] args)
-       // {
-       //     int sum = 0;
+        // with param
 
-       //     foreach (var item in args)
-       //     {
-       //         sum += item + 2;
-       //     }
+        static public int addTwoEach2(params int[] args)
+        {
+            int sum = 0;
 
-       //     return sum;
-       // }
+            foreach (var item in args)
+            {
+                sum += item + 2;
+            }
 
-       //  addtwoEach(); // returns 0
+            return sum;
+        }
+
+        //  addtwoEach(); // returns 0
 
         // you can use params when the number of arguments
         // can vary from 0 to infinity, and use an array when numbers of arguments vary from 1 to infinity.

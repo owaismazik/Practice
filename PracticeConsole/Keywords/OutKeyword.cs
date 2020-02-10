@@ -15,7 +15,7 @@ namespace PracticeConsole
             s2 = null;
             return k;
         }
-        static void MainMethod()
+        static void Main2222434()
         {
             int a = 5, b = 3;
             string str1, str2; // we just declare string here but we define string in function
