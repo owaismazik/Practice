@@ -8,7 +8,7 @@ namespace PracticeConsole
 {
     class OpenCloseBrackets
     {
-        static void Main()
+        static void Main232dfdfd()
         {
             try
             {

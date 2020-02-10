@@ -10,7 +10,7 @@ namespace PracticeConsole.Flow_Control
     {
         // Null Coalescing Operator ( ?? )
 
-        static void Mainn (string[] args)
+        static void Main234234dfsf (string[] args)
         {
             double? num1 = null;
             double? num2 = 3.14157;
