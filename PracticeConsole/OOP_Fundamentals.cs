@@ -577,10 +577,13 @@ namespace PracticeConsole
 
         #endregion
 
-        static void Main1111(string[] args)
+        static void Main343434cgvcg(string[] args)
         {
 
-          //  dd = new D(7);
+            //dd = new D(7);
+
+            B bbb = new B();
+
 
 
             //dd.public_functionD();

@@ -51,7 +51,7 @@ namespace PracticeConsole
 
     class owais
     {
-        static void Main ()
+        static void Main2323 ()
         {
 
             //SingletonPattern obj = new SingletonPattern();
