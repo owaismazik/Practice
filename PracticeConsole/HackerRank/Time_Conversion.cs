@@ -94,7 +94,7 @@ namespace PracticeConsole.HackerRank
             return hour +":"+ str[1] +":"+ str[2];
         }
 
-        static void Main(string[] args)
+        static void Main565653fbdfhdf(string[] args)
         {
             //TextWriter tw = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
             string s = Console.ReadLine();

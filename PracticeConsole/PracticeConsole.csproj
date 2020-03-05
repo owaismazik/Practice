@@ -54,9 +54,12 @@
     <Compile Include="Delegate_Uses.cs" />
     <Compile Include="Else_If.cs" />
     <Compile Include="General Concepts\PlusMinus.cs" />
+    <Compile Include="HackerRank\Apple_And_Orange.cs" />
     <Compile Include="HackerRank\Birthday_Cake_Candles.cs" />
     <Compile Include="HackerRank\Counting_Valleys.cs" />
     <Compile Include="HackerRank\Diagonal_Difference.cs" />
+    <Compile Include="HackerRank\Grading_Students.cs" />
+    <Compile Include="HackerRank\Kangaroo.cs" />
     <Compile Include="HackerRank\Mini_Max_Sum.cs" />
     <Compile Include="HackerRank\Sock_Merchant.cs" />
     <Compile Include="HackerRank\Staircase.cs" />
