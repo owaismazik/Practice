@@ -42,7 +42,7 @@ namespace PracticeConsole.HackerRank
             return result;
         }
 
-        static void Main(string[] args)
+        static void Mainvbvbd434s(string[] args)
         {
             //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
