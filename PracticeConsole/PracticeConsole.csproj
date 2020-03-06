@@ -60,6 +60,7 @@
     <Compile Include="HackerRank\Birthday_Chocolate.cs" />
     <Compile Include="HackerRank\Breaking_The_Records.cs" />
     <Compile Include="HackerRank\Counting_Valleys.cs" />
+    <Compile Include="HackerRank\Day_of_the_Programmer.cs" />
     <Compile Include="HackerRank\Diagonal_Difference.cs" />
     <Compile Include="HackerRank\Divisible_Sum_Pairs.cs" />
     <Compile Include="HackerRank\Grading_Students.cs" />
