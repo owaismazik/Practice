@@ -56,7 +56,7 @@ namespace PracticeConsole.HackerRank
             return result;
         }
 
-        static void Main(string[] args)
+        static void Main5876jfjhf(string[] args)
         {
             //TextWriter textWriter = new StreamWriter(@System.Environment.GetEnvironmentVariable("OUTPUT_PATH"), true);
 
