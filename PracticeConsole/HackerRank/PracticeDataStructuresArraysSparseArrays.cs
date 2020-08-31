@@ -10,7 +10,7 @@ namespace PracticeConsole.HackerRank
     {
         static int[] matchingStrings(string[] strings, string[] queries)
         {
-            int[] abc = new int[strings.Length];
+            int[] abc = new int[queries.Length];
             for (int i = 0; i < queries.Length; i++)
             {
                 int counter = 0;
@@ -19,6 +19,7 @@ namespace PracticeConsole.HackerRank
                     if (queries[i] == strings[j])
                     {
                         abc[i] = ++counter;
+                        //
                     }
                 }
             }
