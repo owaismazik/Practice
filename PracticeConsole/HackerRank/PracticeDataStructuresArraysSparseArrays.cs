@@ -19,7 +19,7 @@ namespace PracticeConsole.HackerRank
                     if (queries[i] == strings[j])
                     {
                         abc[i] = ++counter;
-                        //
+                        ////
                     }
                 }
             }
