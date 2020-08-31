@@ -15,7 +15,7 @@ namespace PracticeConsole
             class beta : alpha
             {
 
-                static void MainMethod ()
+                static void Main43636 ()
                 {
                     Console.WriteLine ();
                     Console.WriteLine ();
