@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <input type="radio" id="product_1" name="products" class="products" value="1">
+    <label for="product1">product_1</label>
+    <input type="radio" id="product_2" name="products" value="2" class="products">
+    <label for="product2">product_2</label>
+    <input type="radio" id="product_3" name="products" value="3" class="products">
+    <label for="product3">product_3</label>
+
+
+    <div class="col-xs-12 class1" id="class1">
+        <div class="form-group">
+            <!--<select id="user_nationality" name="nationality_id" class="form-control ">
+                <option value=""></option>
+                @foreach($myproduct as $product)
+                <option value="{{$product->id}}">{{$product->name}}</option>
+            </select>-->
+            <h1>testing 123</h1>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+
+
+
+
+
+
+    $("body").on('click', ".products", function () {
+        debugger;
+        if($(this).val() == '1'){
+            $(this).closest('.row').find(".class1").hide();
+            $(this).closest('.row').find(".class3").show();
+            $(this).closest('.row').find(".class4").show();
+        }else if($(this).val() == '2'){
+            $(this).closest('.row').find(".class1").show();
+            $(this).closest('.row').find(".class3").show();
+            $(this).closest('.row').find(".class4").show();
+        }else{
+            $(this).closest('.row').find(".class1").hide();
+            $(this).closest('.row').find(".class2").hide();
+            $(this).closest('.row').find(".class3").hide();
+            $(this).closest('.row').find(".class4").hide();
+        }
+    });
+</script>

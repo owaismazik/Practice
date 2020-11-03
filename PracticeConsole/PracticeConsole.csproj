@@ -54,8 +54,10 @@
     <Compile Include="Class2.cs" />
     <Compile Include="Delegate_Uses.cs" />
     <Compile Include="Else_If.cs" />
+    <Compile Include="HackerRank\LoopTestingBreak.cs" />
     <Compile Include="HackerRank\PracticeDataStructuresArraysLeftRotation.cs" />
     <Compile Include="HackerRank\PracticeDataStructuresArraysSparseArrays.cs" />
+    <Compile Include="Logic Building\HackerRankBracketBalance.cs" />
     <Compile Include="OOP_Fundamentals.cs" />
     <Compile Include="DataStructure_SoloLearn.cs" />
     <Compile Include="Flow Control\Typeof_GetType_Is.cs" />

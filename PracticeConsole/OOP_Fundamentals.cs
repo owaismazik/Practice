@@ -533,20 +533,37 @@ namespace PracticeConsole
 
         #endregion
 
-        static void Main1(string[] args)
+        static void Main56565(string[] args)
         {
-            D dd = new D();
+            //D dd = new D();
 
-            dd.public_functionD();
+            //dd.public_functionD();
 
-           
-            
-            
+            A a = new A();
+            Console.WriteLine("A object is created");
+            Console.WriteLine("=================================");
+            B b = new B();
+            Console.WriteLine("B object is created");
+            Console.WriteLine("=================================");
+            C c = new C();
+            Console.WriteLine("C object is created");
+            Console.WriteLine("=================================");
+            D d = new D();
+            Console.WriteLine("D object is created");
+            Console.WriteLine("=================================");
 
-            
 
-            
-            
+
+
+
+
+
+
+
+
+
+
+
         }
 
     }
